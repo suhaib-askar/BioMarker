@@ -1,0 +1,500 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A13003514E4B32500B09032 /* MATCGlossyButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A13003414E4B32500B09032 /* MATCGlossyButton.m */; };
+		0A13003D14E4B5E300B09032 /* im00.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A13003714E4B5E300B09032 /* im00.png */; };
+		0A13003E14E4B5E300B09032 /* im01.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A13003814E4B5E300B09032 /* im01.png */; };
+		0A13003F14E4B5E300B09032 /* im02.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A13003914E4B5E300B09032 /* im02.png */; };
+		0A13004014E4B5E300B09032 /* im03.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A13003A14E4B5E300B09032 /* im03.png */; };
+		0A13004114E4B5E300B09032 /* im04.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A13003B14E4B5E300B09032 /* im04.png */; };
+		0A13004214E4B5E300B09032 /* im05.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A13003C14E4B5E300B09032 /* im05.png */; };
+		0A6C005014DDDF1B008734F4 /* texTest.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A6C004F14DDDF1B008734F4 /* texTest.png */; };
+		0A6C005314DDDF64008734F4 /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A6C005214DDDF64008734F4 /* Default-Portrait~ipad.png */; };
+		0AB6170014DCCC8700407F88 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AB616FF14DCCC8700407F88 /* UIKit.framework */; };
+		0AB6170214DCCC8700407F88 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AB6170114DCCC8700407F88 /* Foundation.framework */; };
+		0AB6170414DCCC8700407F88 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AB6170314DCCC8700407F88 /* CoreGraphics.framework */; };
+		0AB6170A14DCCC8700407F88 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0AB6170814DCCC8700407F88 /* InfoPlist.strings */; };
+		0AB6170C14DCCC8800407F88 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AB6170B14DCCC8700407F88 /* main.m */; };
+		0AB6171014DCCC8800407F88 /* sivelabAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AB6170F14DCCC8800407F88 /* sivelabAppDelegate.m */; };
+		0AB6171314DCCC8800407F88 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AB6171114DCCC8800407F88 /* MainStoryboard.storyboard */; };
+		0AB6171614DCCC8800407F88 /* sivelabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AB6171514DCCC8800407F88 /* sivelabViewController.m */; };
+		0AB6171E14DCCC8800407F88 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AB6171D14DCCC8800407F88 /* SenTestingKit.framework */; };
+		0AB6171F14DCCC8800407F88 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AB616FF14DCCC8700407F88 /* UIKit.framework */; };
+		0AB6172014DCCC8800407F88 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AB6170114DCCC8700407F88 /* Foundation.framework */; };
+		0AB6172814DCCC8800407F88 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0AB6172614DCCC8800407F88 /* InfoPlist.strings */; };
+		0AB6172B14DCCC8800407F88 /* simpleDrawTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AB6172A14DCCC8800407F88 /* simpleDrawTests.m */; };
+		0AEE041214DCECF5001EF4C7 /* sivelabDrawingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AEE041114DCECF5001EF4C7 /* sivelabDrawingView.m */; };
+		0AEE041A14DD87CB001EF4C7 /* RenderingData.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AEE041914DD87CB001EF4C7 /* RenderingData.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0AB6172114DCCC8800407F88 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0AB616F214DCCC8700407F88 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0AB616FA14DCCC8700407F88;
+			remoteInfo = simpleDraw;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A13003314E4B32500B09032 /* MATCGlossyButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MATCGlossyButton.h; sourceTree = "<group>"; };
+		0A13003414E4B32500B09032 /* MATCGlossyButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MATCGlossyButton.m; sourceTree = "<group>"; };
+		0A13003714E4B5E300B09032 /* im00.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = im00.png; sourceTree = "<group>"; };
+		0A13003814E4B5E300B09032 /* im01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = im01.png; sourceTree = "<group>"; };
+		0A13003914E4B5E300B09032 /* im02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = im02.png; sourceTree = "<group>"; };
+		0A13003A14E4B5E300B09032 /* im03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = im03.png; sourceTree = "<group>"; };
+		0A13003B14E4B5E300B09032 /* im04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = im04.png; sourceTree = "<group>"; };
+		0A13003C14E4B5E300B09032 /* im05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = im05.png; sourceTree = "<group>"; };
+		0A6C004F14DDDF1B008734F4 /* texTest.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = texTest.png; sourceTree = "<group>"; };
+		0A6C005214DDDF64008734F4 /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait~ipad.png"; sourceTree = "<group>"; };
+		0AB616FB14DCCC8700407F88 /* simpleDraw.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = simpleDraw.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AB616FF14DCCC8700407F88 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0AB6170114DCCC8700407F88 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0AB6170314DCCC8700407F88 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0AB6170714DCCC8700407F88 /* simpleDraw-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "simpleDraw-Info.plist"; sourceTree = "<group>"; };
+		0AB6170914DCCC8700407F88 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0AB6170B14DCCC8700407F88 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0AB6170D14DCCC8800407F88 /* simpleDraw-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "simpleDraw-Prefix.pch"; sourceTree = "<group>"; };
+		0AB6170E14DCCC8800407F88 /* sivelabAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sivelabAppDelegate.h; sourceTree = "<group>"; };
+		0AB6170F14DCCC8800407F88 /* sivelabAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sivelabAppDelegate.m; sourceTree = "<group>"; };
+		0AB6171214DCCC8800407F88 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		0AB6171414DCCC8800407F88 /* sivelabViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sivelabViewController.h; sourceTree = "<group>"; };
+		0AB6171514DCCC8800407F88 /* sivelabViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sivelabViewController.m; sourceTree = "<group>"; };
+		0AB6171C14DCCC8800407F88 /* simpleDrawTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = simpleDrawTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AB6171D14DCCC8800407F88 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		0AB6172514DCCC8800407F88 /* simpleDrawTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "simpleDrawTests-Info.plist"; sourceTree = "<group>"; };
+		0AB6172714DCCC8800407F88 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0AB6172914DCCC8800407F88 /* simpleDrawTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = simpleDrawTests.h; sourceTree = "<group>"; };
+		0AB6172A14DCCC8800407F88 /* simpleDrawTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = simpleDrawTests.m; sourceTree = "<group>"; };
+		0AEE041014DCECF5001EF4C7 /* sivelabDrawingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sivelabDrawingView.h; sourceTree = "<group>"; };
+		0AEE041114DCECF5001EF4C7 /* sivelabDrawingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = sivelabDrawingView.m; sourceTree = "<group>"; };
+		0AEE041814DD87CB001EF4C7 /* RenderingData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RenderingData.h; sourceTree = "<group>"; };
+		0AEE041914DD87CB001EF4C7 /* RenderingData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RenderingData.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0AB616F814DCCC8700407F88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AB6170014DCCC8700407F88 /* UIKit.framework in Frameworks */,
+				0AB6170214DCCC8700407F88 /* Foundation.framework in Frameworks */,
+				0AB6170414DCCC8700407F88 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AB6171814DCCC8800407F88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AB6171E14DCCC8800407F88 /* SenTestingKit.framework in Frameworks */,
+				0AB6171F14DCCC8800407F88 /* UIKit.framework in Frameworks */,
+				0AB6172014DCCC8800407F88 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0AB616F014DCCC8700407F88 = {
+			isa = PBXGroup;
+			children = (
+				0A6C005214DDDF64008734F4 /* Default-Portrait~ipad.png */,
+				0A6C004F14DDDF1B008734F4 /* texTest.png */,
+				0AEE041814DD87CB001EF4C7 /* RenderingData.h */,
+				0AEE041914DD87CB001EF4C7 /* RenderingData.m */,
+				0AB6170514DCCC8700407F88 /* simpleDraw */,
+				0AB6172314DCCC8800407F88 /* simpleDrawTests */,
+				0AB616FE14DCCC8700407F88 /* Frameworks */,
+				0AB616FC14DCCC8700407F88 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0AB616FC14DCCC8700407F88 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0AB616FB14DCCC8700407F88 /* simpleDraw.app */,
+				0AB6171C14DCCC8800407F88 /* simpleDrawTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0AB616FE14DCCC8700407F88 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0AB616FF14DCCC8700407F88 /* UIKit.framework */,
+				0AB6170114DCCC8700407F88 /* Foundation.framework */,
+				0AB6170314DCCC8700407F88 /* CoreGraphics.framework */,
+				0AB6171D14DCCC8800407F88 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0AB6170514DCCC8700407F88 /* simpleDraw */ = {
+			isa = PBXGroup;
+			children = (
+				0A13003314E4B32500B09032 /* MATCGlossyButton.h */,
+				0A13003414E4B32500B09032 /* MATCGlossyButton.m */,
+				0AB6170E14DCCC8800407F88 /* sivelabAppDelegate.h */,
+				0AB6170F14DCCC8800407F88 /* sivelabAppDelegate.m */,
+				0AB6171114DCCC8800407F88 /* MainStoryboard.storyboard */,
+				0AEE041014DCECF5001EF4C7 /* sivelabDrawingView.h */,
+				0AEE041114DCECF5001EF4C7 /* sivelabDrawingView.m */,
+				0AB6171414DCCC8800407F88 /* sivelabViewController.h */,
+				0AB6171514DCCC8800407F88 /* sivelabViewController.m */,
+				0AB6170614DCCC8700407F88 /* Supporting Files */,
+			);
+			path = simpleDraw;
+			sourceTree = "<group>";
+		};
+		0AB6170614DCCC8700407F88 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0A13003714E4B5E300B09032 /* im00.png */,
+				0A13003814E4B5E300B09032 /* im01.png */,
+				0A13003914E4B5E300B09032 /* im02.png */,
+				0A13003A14E4B5E300B09032 /* im03.png */,
+				0A13003B14E4B5E300B09032 /* im04.png */,
+				0A13003C14E4B5E300B09032 /* im05.png */,
+				0AB6170714DCCC8700407F88 /* simpleDraw-Info.plist */,
+				0AB6170814DCCC8700407F88 /* InfoPlist.strings */,
+				0AB6170B14DCCC8700407F88 /* main.m */,
+				0AB6170D14DCCC8800407F88 /* simpleDraw-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0AB6172314DCCC8800407F88 /* simpleDrawTests */ = {
+			isa = PBXGroup;
+			children = (
+				0AB6172914DCCC8800407F88 /* simpleDrawTests.h */,
+				0AB6172A14DCCC8800407F88 /* simpleDrawTests.m */,
+				0AB6172414DCCC8800407F88 /* Supporting Files */,
+			);
+			path = simpleDrawTests;
+			sourceTree = "<group>";
+		};
+		0AB6172414DCCC8800407F88 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0AB6172514DCCC8800407F88 /* simpleDrawTests-Info.plist */,
+				0AB6172614DCCC8800407F88 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0AB616FA14DCCC8700407F88 /* simpleDraw */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AB6172E14DCCC8800407F88 /* Build configuration list for PBXNativeTarget "simpleDraw" */;
+			buildPhases = (
+				0AB616F714DCCC8700407F88 /* Sources */,
+				0AB616F814DCCC8700407F88 /* Frameworks */,
+				0AB616F914DCCC8700407F88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = simpleDraw;
+			productName = simpleDraw;
+			productReference = 0AB616FB14DCCC8700407F88 /* simpleDraw.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0AB6171B14DCCC8800407F88 /* simpleDrawTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AB6173114DCCC8800407F88 /* Build configuration list for PBXNativeTarget "simpleDrawTests" */;
+			buildPhases = (
+				0AB6171714DCCC8800407F88 /* Sources */,
+				0AB6171814DCCC8800407F88 /* Frameworks */,
+				0AB6171914DCCC8800407F88 /* Resources */,
+				0AB6171A14DCCC8800407F88 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0AB6172214DCCC8800407F88 /* PBXTargetDependency */,
+			);
+			name = simpleDrawTests;
+			productName = simpleDrawTests;
+			productReference = 0AB6171C14DCCC8800407F88 /* simpleDrawTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0AB616F214DCCC8700407F88 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 0AB616F514DCCC8700407F88 /* Build configuration list for PBXProject "simpleDraw" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0AB616F014DCCC8700407F88;
+			productRefGroup = 0AB616FC14DCCC8700407F88 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0AB616FA14DCCC8700407F88 /* simpleDraw */,
+				0AB6171B14DCCC8800407F88 /* simpleDrawTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0AB616F914DCCC8700407F88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AB6170A14DCCC8700407F88 /* InfoPlist.strings in Resources */,
+				0AB6171314DCCC8800407F88 /* MainStoryboard.storyboard in Resources */,
+				0A6C005014DDDF1B008734F4 /* texTest.png in Resources */,
+				0A6C005314DDDF64008734F4 /* Default-Portrait~ipad.png in Resources */,
+				0A13003D14E4B5E300B09032 /* im00.png in Resources */,
+				0A13003E14E4B5E300B09032 /* im01.png in Resources */,
+				0A13003F14E4B5E300B09032 /* im02.png in Resources */,
+				0A13004014E4B5E300B09032 /* im03.png in Resources */,
+				0A13004114E4B5E300B09032 /* im04.png in Resources */,
+				0A13004214E4B5E300B09032 /* im05.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AB6171914DCCC8800407F88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AB6172814DCCC8800407F88 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0AB6171A14DCCC8800407F88 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0AB616F714DCCC8700407F88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AB6170C14DCCC8800407F88 /* main.m in Sources */,
+				0AB6171014DCCC8800407F88 /* sivelabAppDelegate.m in Sources */,
+				0AB6171614DCCC8800407F88 /* sivelabViewController.m in Sources */,
+				0AEE041214DCECF5001EF4C7 /* sivelabDrawingView.m in Sources */,
+				0AEE041A14DD87CB001EF4C7 /* RenderingData.m in Sources */,
+				0A13003514E4B32500B09032 /* MATCGlossyButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AB6171714DCCC8800407F88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AB6172B14DCCC8800407F88 /* simpleDrawTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0AB6172214DCCC8800407F88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0AB616FA14DCCC8700407F88 /* simpleDraw */;
+			targetProxy = 0AB6172114DCCC8800407F88 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0AB6170814DCCC8700407F88 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0AB6170914DCCC8700407F88 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0AB6171114DCCC8800407F88 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0AB6171214DCCC8800407F88 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		0AB6172614DCCC8800407F88 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0AB6172714DCCC8800407F88 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0AB6172C14DCCC8800407F88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		0AB6172D14DCCC8800407F88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0AB6172F14DCCC8800407F88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "simpleDraw/simpleDraw-Prefix.pch";
+				INFOPLIST_FILE = "simpleDraw/simpleDraw-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0AB6173014DCCC8800407F88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "simpleDraw/simpleDraw-Prefix.pch";
+				INFOPLIST_FILE = "simpleDraw/simpleDraw-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		0AB6173214DCCC8800407F88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/simpleDraw.app/simpleDraw";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "simpleDraw/simpleDraw-Prefix.pch";
+				INFOPLIST_FILE = "simpleDrawTests/simpleDrawTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		0AB6173314DCCC8800407F88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/simpleDraw.app/simpleDraw";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "simpleDraw/simpleDraw-Prefix.pch";
+				INFOPLIST_FILE = "simpleDrawTests/simpleDrawTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0AB616F514DCCC8700407F88 /* Build configuration list for PBXProject "simpleDraw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AB6172C14DCCC8800407F88 /* Debug */,
+				0AB6172D14DCCC8800407F88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0AB6172E14DCCC8800407F88 /* Build configuration list for PBXNativeTarget "simpleDraw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AB6172F14DCCC8800407F88 /* Debug */,
+				0AB6173014DCCC8800407F88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0AB6173114DCCC8800407F88 /* Build configuration list for PBXNativeTarget "simpleDrawTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AB6173214DCCC8800407F88 /* Debug */,
+				0AB6173314DCCC8800407F88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0AB616F214DCCC8700407F88 /* Project object */;
+}

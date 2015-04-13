@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A24D3DF15425C2E00AC7932 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A24D3DE15425C2E00AC7932 /* UIKit.framework */; };
+		0A24D3E115425C2E00AC7932 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A24D3E015425C2E00AC7932 /* Foundation.framework */; };
+		0A24D3E915425C2E00AC7932 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0A24D3E715425C2E00AC7932 /* InfoPlist.strings */; };
+		0A24D3EB15425C2E00AC7932 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A24D3EA15425C2E00AC7932 /* main.m */; };
+		0A24D3EF15425C2E00AC7932 /* sivelabAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A24D3EE15425C2E00AC7932 /* sivelabAppDelegate.m */; };
+		0A24D3F215425C2E00AC7932 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A24D3F015425C2E00AC7932 /* MainStoryboard.storyboard */; };
+		0A24D3F515425C2E00AC7932 /* sivelabFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A24D3F415425C2E00AC7932 /* sivelabFirstViewController.m */; };
+		0A24D3F715425C2E00AC7932 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A24D3F615425C2E00AC7932 /* first.png */; };
+		0A24D3F915425C2E00AC7932 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A24D3F815425C2E00AC7932 /* first@2x.png */; };
+		0A24D3FC15425C2E00AC7932 /* sivelabSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A24D3FB15425C2E00AC7932 /* sivelabSecondViewController.m */; };
+		0A24D3FE15425C2E00AC7932 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A24D3FD15425C2E00AC7932 /* second.png */; };
+		0A24D40015425C2E00AC7932 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A24D3FF15425C2E00AC7932 /* second@2x.png */; };
+		0A24D40815425C2E00AC7932 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A24D40715425C2E00AC7932 /* SenTestingKit.framework */; };
+		0A24D40915425C2E00AC7932 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A24D3DE15425C2E00AC7932 /* UIKit.framework */; };
+		0A24D40A15425C2E00AC7932 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A24D3E015425C2E00AC7932 /* Foundation.framework */; };
+		0A24D41215425C2F00AC7932 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0A24D41015425C2F00AC7932 /* InfoPlist.strings */; };
+		0A24D41515425C2F00AC7932 /* bioMechCapTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A24D41415425C2F00AC7932 /* bioMechCapTests.m */; };
+		0A24D41F1542600500AC7932 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A24D41E1542600500AC7932 /* AVFoundation.framework */; };
+		0A24D4211542603300AC7932 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A24D4201542603300AC7932 /* CoreMedia.framework */; };
+		0A24D428154267E700AC7932 /* sivelabVideoProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A24D427154267E700AC7932 /* sivelabVideoProcessor.m */; };
+		0A24D42B1542693A00AC7932 /* sivelabPreviewView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A24D42A1542693A00AC7932 /* sivelabPreviewView.m */; };
+		0A24D42C1542693A00AC7932 /* sivelabPreviewView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A24D42A1542693A00AC7932 /* sivelabPreviewView.m */; };
+		0A24D42F15426B5900AC7932 /* passThrough.fsh in Sources */ = {isa = PBXBuildFile; fileRef = 0A24D42D15426B5900AC7932 /* passThrough.fsh */; };
+		0A24D43015426B5900AC7932 /* passThrough.fsh in Sources */ = {isa = PBXBuildFile; fileRef = 0A24D42D15426B5900AC7932 /* passThrough.fsh */; };
+		0A24D43115426B5900AC7932 /* passThrough.vsh in Sources */ = {isa = PBXBuildFile; fileRef = 0A24D42E15426B5900AC7932 /* passThrough.vsh */; };
+		0A24D43215426B5900AC7932 /* passThrough.vsh in Sources */ = {isa = PBXBuildFile; fileRef = 0A24D42E15426B5900AC7932 /* passThrough.vsh */; };
+		0A24D43515426B8300AC7932 /* ShaderUtilities.c in Sources */ = {isa = PBXBuildFile; fileRef = 0A24D43315426B8300AC7932 /* ShaderUtilities.c */; };
+		0A24D43615426B8300AC7932 /* ShaderUtilities.c in Sources */ = {isa = PBXBuildFile; fileRef = 0A24D43315426B8300AC7932 /* ShaderUtilities.c */; };
+		0A24D43815426CE100AC7932 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A24D43715426CE100AC7932 /* CoreGraphics.framework */; };
+		0A24D43915426CE100AC7932 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A24D43715426CE100AC7932 /* CoreGraphics.framework */; };
+		0A24D43B15426CEC00AC7932 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A24D43A15426CEC00AC7932 /* OpenGLES.framework */; };
+		0A24D43C15426CEC00AC7932 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A24D43A15426CEC00AC7932 /* OpenGLES.framework */; };
+		0A24D43E15426D1400AC7932 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A24D43D15426D1400AC7932 /* QuartzCore.framework */; };
+		0A24D43F15426D1400AC7932 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A24D43D15426D1400AC7932 /* QuartzCore.framework */; };
+		0A24D44115426E5A00AC7932 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A24D44015426E5A00AC7932 /* CoreVideo.framework */; };
+		0A24D44215426E5A00AC7932 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A24D44015426E5A00AC7932 /* CoreVideo.framework */; };
+		0A24D44315426F6700AC7932 /* sivelabVideoProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A24D427154267E700AC7932 /* sivelabVideoProcessor.m */; };
+		0A24D4451543ACE400AC7932 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A24D4441543ACE400AC7932 /* AssetsLibrary.framework */; };
+		0A24D4461543ACE400AC7932 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A24D4441543ACE400AC7932 /* AssetsLibrary.framework */; };
+		0A24D4481543AE6900AC7932 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A24D4471543AE6900AC7932 /* MobileCoreServices.framework */; };
+		0A24D4491543AE6900AC7932 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A24D4471543AE6900AC7932 /* MobileCoreServices.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0A24D40B15425C2E00AC7932 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A24D3D115425C2E00AC7932 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A24D3D915425C2E00AC7932;
+			remoteInfo = bioMechCap;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A24D3DA15425C2E00AC7932 /* bioMechCap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bioMechCap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A24D3DE15425C2E00AC7932 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0A24D3E015425C2E00AC7932 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0A24D3E615425C2E00AC7932 /* bioMechCap-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "bioMechCap-Info.plist"; sourceTree = "<group>"; };
+		0A24D3E815425C2E00AC7932 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0A24D3EA15425C2E00AC7932 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0A24D3EC15425C2E00AC7932 /* bioMechCap-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "bioMechCap-Prefix.pch"; sourceTree = "<group>"; };
+		0A24D3ED15425C2E00AC7932 /* sivelabAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sivelabAppDelegate.h; sourceTree = "<group>"; };
+		0A24D3EE15425C2E00AC7932 /* sivelabAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sivelabAppDelegate.m; sourceTree = "<group>"; };
+		0A24D3F115425C2E00AC7932 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		0A24D3F315425C2E00AC7932 /* sivelabFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sivelabFirstViewController.h; sourceTree = "<group>"; };
+		0A24D3F415425C2E00AC7932 /* sivelabFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sivelabFirstViewController.m; sourceTree = "<group>"; };
+		0A24D3F615425C2E00AC7932 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		0A24D3F815425C2E00AC7932 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		0A24D3FA15425C2E00AC7932 /* sivelabSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sivelabSecondViewController.h; sourceTree = "<group>"; };
+		0A24D3FB15425C2E00AC7932 /* sivelabSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sivelabSecondViewController.m; sourceTree = "<group>"; };
+		0A24D3FD15425C2E00AC7932 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		0A24D3FF15425C2E00AC7932 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		0A24D40615425C2E00AC7932 /* bioMechCapTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bioMechCapTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A24D40715425C2E00AC7932 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		0A24D40F15425C2E00AC7932 /* bioMechCapTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "bioMechCapTests-Info.plist"; sourceTree = "<group>"; };
+		0A24D41115425C2F00AC7932 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0A24D41315425C2F00AC7932 /* bioMechCapTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bioMechCapTests.h; sourceTree = "<group>"; };
+		0A24D41415425C2F00AC7932 /* bioMechCapTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = bioMechCapTests.m; sourceTree = "<group>"; };
+		0A24D41E1542600500AC7932 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = /System/Library/Frameworks/AVFoundation.framework; sourceTree = "<absolute>"; };
+		0A24D4201542603300AC7932 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = ../../../../../../System/Library/Frameworks/CoreMedia.framework; sourceTree = "<group>"; };
+		0A24D426154267E600AC7932 /* sivelabVideoProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sivelabVideoProcessor.h; sourceTree = "<group>"; };
+		0A24D427154267E700AC7932 /* sivelabVideoProcessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = sivelabVideoProcessor.m; sourceTree = "<group>"; };
+		0A24D4291542693A00AC7932 /* sivelabPreviewView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sivelabPreviewView.h; sourceTree = "<group>"; };
+		0A24D42A1542693A00AC7932 /* sivelabPreviewView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = sivelabPreviewView.m; sourceTree = "<group>"; };
+		0A24D42D15426B5900AC7932 /* passThrough.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = passThrough.fsh; sourceTree = "<group>"; };
+		0A24D42E15426B5900AC7932 /* passThrough.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = passThrough.vsh; sourceTree = "<group>"; };
+		0A24D43315426B8300AC7932 /* ShaderUtilities.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ShaderUtilities.c; sourceTree = "<group>"; };
+		0A24D43415426B8300AC7932 /* ShaderUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShaderUtilities.h; sourceTree = "<group>"; };
+		0A24D43715426CE100AC7932 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0A24D43A15426CEC00AC7932 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		0A24D43D15426D1400AC7932 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		0A24D44015426E5A00AC7932 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		0A24D4441543ACE400AC7932 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		0A24D4471543AE6900AC7932 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A24D3D715425C2E00AC7932 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A24D3DF15425C2E00AC7932 /* UIKit.framework in Frameworks */,
+				0A24D3E115425C2E00AC7932 /* Foundation.framework in Frameworks */,
+				0A24D41F1542600500AC7932 /* AVFoundation.framework in Frameworks */,
+				0A24D4211542603300AC7932 /* CoreMedia.framework in Frameworks */,
+				0A24D43815426CE100AC7932 /* CoreGraphics.framework in Frameworks */,
+				0A24D43B15426CEC00AC7932 /* OpenGLES.framework in Frameworks */,
+				0A24D43E15426D1400AC7932 /* QuartzCore.framework in Frameworks */,
+				0A24D44115426E5A00AC7932 /* CoreVideo.framework in Frameworks */,
+				0A24D4451543ACE400AC7932 /* AssetsLibrary.framework in Frameworks */,
+				0A24D4481543AE6900AC7932 /* MobileCoreServices.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A24D40215425C2E00AC7932 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A24D40815425C2E00AC7932 /* SenTestingKit.framework in Frameworks */,
+				0A24D40915425C2E00AC7932 /* UIKit.framework in Frameworks */,
+				0A24D40A15425C2E00AC7932 /* Foundation.framework in Frameworks */,
+				0A24D43915426CE100AC7932 /* CoreGraphics.framework in Frameworks */,
+				0A24D43C15426CEC00AC7932 /* OpenGLES.framework in Frameworks */,
+				0A24D43F15426D1400AC7932 /* QuartzCore.framework in Frameworks */,
+				0A24D44215426E5A00AC7932 /* CoreVideo.framework in Frameworks */,
+				0A24D4461543ACE400AC7932 /* AssetsLibrary.framework in Frameworks */,
+				0A24D4491543AE6900AC7932 /* MobileCoreServices.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A24D3CF15425C2E00AC7932 = {
+			isa = PBXGroup;
+			children = (
+				0A24D3E415425C2E00AC7932 /* bioMechCap */,
+				0A24D40D15425C2E00AC7932 /* bioMechCapTests */,
+				0A24D3DD15425C2E00AC7932 /* Frameworks */,
+				0A24D3DB15425C2E00AC7932 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0A24D3DB15425C2E00AC7932 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A24D3DA15425C2E00AC7932 /* bioMechCap.app */,
+				0A24D40615425C2E00AC7932 /* bioMechCapTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0A24D3DD15425C2E00AC7932 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0A24D4471543AE6900AC7932 /* MobileCoreServices.framework */,
+				0A24D4441543ACE400AC7932 /* AssetsLibrary.framework */,
+				0A24D44015426E5A00AC7932 /* CoreVideo.framework */,
+				0A24D43D15426D1400AC7932 /* QuartzCore.framework */,
+				0A24D43A15426CEC00AC7932 /* OpenGLES.framework */,
+				0A24D43715426CE100AC7932 /* CoreGraphics.framework */,
+				0A24D4201542603300AC7932 /* CoreMedia.framework */,
+				0A24D41E1542600500AC7932 /* AVFoundation.framework */,
+				0A24D3DE15425C2E00AC7932 /* UIKit.framework */,
+				0A24D3E015425C2E00AC7932 /* Foundation.framework */,
+				0A24D40715425C2E00AC7932 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0A24D3E415425C2E00AC7932 /* bioMechCap */ = {
+			isa = PBXGroup;
+			children = (
+				0A24D3ED15425C2E00AC7932 /* sivelabAppDelegate.h */,
+				0A24D3EE15425C2E00AC7932 /* sivelabAppDelegate.m */,
+				0A24D426154267E600AC7932 /* sivelabVideoProcessor.h */,
+				0A24D427154267E700AC7932 /* sivelabVideoProcessor.m */,
+				0A24D4291542693A00AC7932 /* sivelabPreviewView.h */,
+				0A24D42A1542693A00AC7932 /* sivelabPreviewView.m */,
+				0A24D3F015425C2E00AC7932 /* MainStoryboard.storyboard */,
+				0A24D3F315425C2E00AC7932 /* sivelabFirstViewController.h */,
+				0A24D3F415425C2E00AC7932 /* sivelabFirstViewController.m */,
+				0A24D3F615425C2E00AC7932 /* first.png */,
+				0A24D3F815425C2E00AC7932 /* first@2x.png */,
+				0A24D3FA15425C2E00AC7932 /* sivelabSecondViewController.h */,
+				0A24D3FB15425C2E00AC7932 /* sivelabSecondViewController.m */,
+				0A24D3FD15425C2E00AC7932 /* second.png */,
+				0A24D3FF15425C2E00AC7932 /* second@2x.png */,
+				0A24D42D15426B5900AC7932 /* passThrough.fsh */,
+				0A24D42E15426B5900AC7932 /* passThrough.vsh */,
+				0A24D43315426B8300AC7932 /* ShaderUtilities.c */,
+				0A24D43415426B8300AC7932 /* ShaderUtilities.h */,
+				0A24D3E515425C2E00AC7932 /* Supporting Files */,
+			);
+			path = bioMechCap;
+			sourceTree = "<group>";
+		};
+		0A24D3E515425C2E00AC7932 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0A24D3E615425C2E00AC7932 /* bioMechCap-Info.plist */,
+				0A24D3E715425C2E00AC7932 /* InfoPlist.strings */,
+				0A24D3EA15425C2E00AC7932 /* main.m */,
+				0A24D3EC15425C2E00AC7932 /* bioMechCap-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0A24D40D15425C2E00AC7932 /* bioMechCapTests */ = {
+			isa = PBXGroup;
+			children = (
+				0A24D41315425C2F00AC7932 /* bioMechCapTests.h */,
+				0A24D41415425C2F00AC7932 /* bioMechCapTests.m */,
+				0A24D40E15425C2E00AC7932 /* Supporting Files */,
+			);
+			path = bioMechCapTests;
+			sourceTree = "<group>";
+		};
+		0A24D40E15425C2E00AC7932 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0A24D40F15425C2E00AC7932 /* bioMechCapTests-Info.plist */,
+				0A24D41015425C2F00AC7932 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0A24D3D915425C2E00AC7932 /* bioMechCap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A24D41815425C2F00AC7932 /* Build configuration list for PBXNativeTarget "bioMechCap" */;
+			buildPhases = (
+				0A24D3D615425C2E00AC7932 /* Sources */,
+				0A24D3D715425C2E00AC7932 /* Frameworks */,
+				0A24D3D815425C2E00AC7932 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = bioMechCap;
+			productName = bioMechCap;
+			productReference = 0A24D3DA15425C2E00AC7932 /* bioMechCap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0A24D40515425C2E00AC7932 /* bioMechCapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A24D41B15425C2F00AC7932 /* Build configuration list for PBXNativeTarget "bioMechCapTests" */;
+			buildPhases = (
+				0A24D40115425C2E00AC7932 /* Sources */,
+				0A24D40215425C2E00AC7932 /* Frameworks */,
+				0A24D40315425C2E00AC7932 /* Resources */,
+				0A24D40415425C2E00AC7932 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A24D40C15425C2E00AC7932 /* PBXTargetDependency */,
+			);
+			name = bioMechCapTests;
+			productName = bioMechCapTests;
+			productReference = 0A24D40615425C2E00AC7932 /* bioMechCapTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0A24D3D115425C2E00AC7932 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = sivelab;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 0A24D3D415425C2E00AC7932 /* Build configuration list for PBXProject "bioMechCap" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0A24D3CF15425C2E00AC7932;
+			productRefGroup = 0A24D3DB15425C2E00AC7932 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0A24D3D915425C2E00AC7932 /* bioMechCap */,
+				0A24D40515425C2E00AC7932 /* bioMechCapTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0A24D3D815425C2E00AC7932 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A24D3E915425C2E00AC7932 /* InfoPlist.strings in Resources */,
+				0A24D3F215425C2E00AC7932 /* MainStoryboard.storyboard in Resources */,
+				0A24D3F715425C2E00AC7932 /* first.png in Resources */,
+				0A24D3F915425C2E00AC7932 /* first@2x.png in Resources */,
+				0A24D3FE15425C2E00AC7932 /* second.png in Resources */,
+				0A24D40015425C2E00AC7932 /* second@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A24D40315425C2E00AC7932 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A24D41215425C2F00AC7932 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0A24D40415425C2E00AC7932 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A24D3D615425C2E00AC7932 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A24D44315426F6700AC7932 /* sivelabVideoProcessor.m in Sources */,
+				0A24D3EB15425C2E00AC7932 /* main.m in Sources */,
+				0A24D3EF15425C2E00AC7932 /* sivelabAppDelegate.m in Sources */,
+				0A24D3F515425C2E00AC7932 /* sivelabFirstViewController.m in Sources */,
+				0A24D3FC15425C2E00AC7932 /* sivelabSecondViewController.m in Sources */,
+				0A24D42B1542693A00AC7932 /* sivelabPreviewView.m in Sources */,
+				0A24D42F15426B5900AC7932 /* passThrough.fsh in Sources */,
+				0A24D43115426B5900AC7932 /* passThrough.vsh in Sources */,
+				0A24D43515426B8300AC7932 /* ShaderUtilities.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A24D40115425C2E00AC7932 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A24D41515425C2F00AC7932 /* bioMechCapTests.m in Sources */,
+				0A24D428154267E700AC7932 /* sivelabVideoProcessor.m in Sources */,
+				0A24D42C1542693A00AC7932 /* sivelabPreviewView.m in Sources */,
+				0A24D43015426B5900AC7932 /* passThrough.fsh in Sources */,
+				0A24D43215426B5900AC7932 /* passThrough.vsh in Sources */,
+				0A24D43615426B8300AC7932 /* ShaderUtilities.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0A24D40C15425C2E00AC7932 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A24D3D915425C2E00AC7932 /* bioMechCap */;
+			targetProxy = 0A24D40B15425C2E00AC7932 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0A24D3E715425C2E00AC7932 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A24D3E815425C2E00AC7932 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0A24D3F015425C2E00AC7932 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A24D3F115425C2E00AC7932 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		0A24D41015425C2F00AC7932 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A24D41115425C2F00AC7932 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0A24D41615425C2F00AC7932 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		0A24D41715425C2F00AC7932 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0A24D41915425C2F00AC7932 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "bioMechCap/bioMechCap-Prefix.pch";
+				INFOPLIST_FILE = "bioMechCap/bioMechCap-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0A24D41A15425C2F00AC7932 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "bioMechCap/bioMechCap-Prefix.pch";
+				INFOPLIST_FILE = "bioMechCap/bioMechCap-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		0A24D41C15425C2F00AC7932 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/bioMechCap.app/bioMechCap";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "bioMechCap/bioMechCap-Prefix.pch";
+				INFOPLIST_FILE = "bioMechCapTests/bioMechCapTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		0A24D41D15425C2F00AC7932 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/bioMechCap.app/bioMechCap";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "bioMechCap/bioMechCap-Prefix.pch";
+				INFOPLIST_FILE = "bioMechCapTests/bioMechCapTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A24D3D415425C2E00AC7932 /* Build configuration list for PBXProject "bioMechCap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A24D41615425C2F00AC7932 /* Debug */,
+				0A24D41715425C2F00AC7932 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A24D41815425C2F00AC7932 /* Build configuration list for PBXNativeTarget "bioMechCap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A24D41915425C2F00AC7932 /* Debug */,
+				0A24D41A15425C2F00AC7932 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0A24D41B15425C2F00AC7932 /* Build configuration list for PBXNativeTarget "bioMechCapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A24D41C15425C2F00AC7932 /* Debug */,
+				0A24D41D15425C2F00AC7932 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0A24D3D115425C2E00AC7932 /* Project object */;
+}
